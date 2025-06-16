@@ -1,5 +1,3 @@
-# Click Here for a Demo []
-
 # 🌊 GIS Sustainable Materials: Calculator
 
 ## Current Progress:
