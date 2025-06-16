@@ -10,6 +10,10 @@ A Dockerfile and some sample inputs files, including a raster file of a Landsat8
 
 Explored the raster file data and metadata taking note of what transformations might be required during the task.
 
+<img width="331" alt="Climate Hackathon" src="https://github.com/user-attachments/assets/7d0d5c2e-d58d-40d6-8b7e-4a64176d108e" />
+
+
+
 <br>
 
 ## Bottom line: 
