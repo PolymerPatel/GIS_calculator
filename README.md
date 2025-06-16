@@ -10,7 +10,9 @@ A Dockerfile and some sample inputs files, including a raster file of a Landsat8
 
 Explored the raster file data and metadata taking note of what transformations might be required during the task.
 
-### Bottom line: This tool will use geospatial analysis to identify hotspots for critical mineral recovery, optimal routes for collection, and the best sites for new recycling infrastructure determining:
+
+
+### Bottom line: This tool will use geospatial analysis to identify hotspots for sustainable material recovery, optimal routes for collection, and the best sites for new recycling infrastructure determining:
 
 🔹 Where are biomass-rich waste streams currently concentrated?<br>
 🔹 What are the most efficient logistics pathways to move biomass to recycling hubs?<br>
