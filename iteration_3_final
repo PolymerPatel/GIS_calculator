@@ -12,13 +12,13 @@ def validate_file_path(prompt: str, file_types: list) -> str:
         file_path = input(prompt)
         
         # Check if file exists
-        if not os.path.exists(file_path):
+        ### conditional with os methods and file_path function:
             print(f"Error: File '{file_path}' does not exist.")
             continue
             
         # Check file extension
         file_ext = os.path.splitext(file_path)[1].lower()
-        if file_ext not in file_types:
+        ### conditional to check file type in file path
             print(f"Error: File must be one of these types: {', '.join(file_types)}")
             continue
             
@@ -150,7 +150,7 @@ def calculate_zonal_statistics(raster_path: str, vector_path: str, band_index: i
         gdf = gpd.read_file(vector_path)
         
         # Ensure the vector CRS matches the raster
-        with rasterio.open(raster_path) as src:
+        ### with keyword with rasterio.open methods with raster_path function as src:
             if gdf.crs != src.crs:
                 gdf = gdf.to_crs(src.crs)
             
