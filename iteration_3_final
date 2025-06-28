@@ -11,14 +11,14 @@ FUNCTION validate_file_path(prompt, allowed_file_types):
     LOOP until a valid file path is returned:
         DISPLAY prompt and RECEIVE user input as 'file_path'
         
-        # Check if file exists
-        ### conditional with os methods and file_path function:
+        # [PSEUDOCODE] Check if file exists
+        # [PSEUDOCODE] conditional with os methods and file_path function:
             print(f"Error: File '{file_path}' does not exist.")
             continue
             
         # Check file extension
         file_ext = os.path.splitext(file_path)[1].lower()
-        ### conditional to check file type in file path
+        # [PSEUDOCODE] conditional to check file type in file path
             print(f"Error: File must be one of these types: {', '.join(file_types)}")
             continue
             
