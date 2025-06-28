@@ -7,9 +7,9 @@ import numpy as np  # For numerical operations
 import os  # For file path operations
 from shapely.geometry import mapping  # For geometry operations
 
-FUNCTION validate_file_path(prompt, allowed_file_types):
-    LOOP until a valid file path is returned:
-        DISPLAY prompt and RECEIVE user input as 'file_path'
+# [PSEUDOCODE] FUNCTION validate_file_path(prompt, allowed_file_types):
+    # [PSEUDOCODE] LOOP until a valid file path is returned:
+        # [PSEUDOCODE] DISPLAY prompt and RECEIVE user input as 'file_path'
         
         # [PSEUDOCODE] Check if file exists
         # [PSEUDOCODE] conditional with os methods and file_path function:
