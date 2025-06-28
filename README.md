@@ -4,7 +4,7 @@
 
 Write a Python script which will take as input the paths to an arbitrary raster (GeoTIFF) and vector polygon (Shapefile, GeoJSON or KML) and return the average value of cells within the bounds of the polygon.
 
-A Dockerfile and some sample inputs files, including a raster file of a Landsat8 scene for Band 5 (NIR) were demoed. 
+A raster file of a Landsat8 scene for Band 5 (NIR) were demoed. 
 
 Explored the raster file data and metadata taking note of what transformations might be required during the task.
 
