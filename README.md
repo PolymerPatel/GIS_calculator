@@ -20,7 +20,7 @@ This tool will use geospatial analysis to identify hotspots for sustainable mate
 
 🔹 Where are biomass-rich waste streams currently concentrated?<br>
 🔹 What are the most efficient logistics pathways to move biomass to recycling hubs?<br>
-🔹 How can insights from spatial data inform policy, investment, or public programs to boost recovery?
+🔹 How can insights from spatial data inform policy, investment, or public programs to boost recovery?<br>
 🔹 Include a Dockerfile and some sample inputs files for demos
 
 💡 Ideal outcome: Build a mapping tool that visualizes biomass locations to support smarter, more equitable circular economy planning—from infrastructure siting to programs designed around geospatial insights.
