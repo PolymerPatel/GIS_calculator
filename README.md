@@ -1,4 +1,4 @@
-# 🌊 GIS Sustainable Materials: Calculator
+# 🌊 Geographic Information Systems Calculator
 
 ## Current Progress:
 
