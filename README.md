@@ -2,11 +2,9 @@
 
 ## Current Progress:
 
-Developed a Python script that takes as input the paths to an arbitrary raster (GeoTIFF) and vector polygon (Shapefile, GeoJSON or KML) and return the average value of cells within the bounds of the polygon.
-
-A raster file of a Landsat8 scene for Band 5 (NIR) were demoed. 
-
-Explored the raster file data and metadata - understanding what transformations might be required during the task.
+🔹 Developed a Python script that takes as input the paths to an arbitrary raster (GeoTIFF) and vector polygon (Shapefile, GeoJSON or KML) and return the average value of cells within the bounds of the polygon.
+🔹 A raster file of a Landsat8 scene for Band 5 (NIR) were demoed. 
+🔹 Explored the raster file data and metadata - understanding what transformations might be required during the task.
 
 <img width="331" alt="Climate Hackathon" src="https://github.com/user-attachments/assets/7d0d5c2e-d58d-40d6-8b7e-4a64176d108e" />
 
