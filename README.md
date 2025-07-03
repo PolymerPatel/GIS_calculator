@@ -2,7 +2,7 @@
 
 ## Current Progress:
 
-🔹 Developed a Python script that takes as input the paths to an arbitrary raster (GeoTIFF) and vector polygon (Shapefile, GeoJSON or KML)<br>
+🔹 Developed Python script that takes as input the paths to an arbitrary raster (GeoTIFF) and vector polygon (Shapefile, GeoJSON or KML)<br>
 🔹 Returns the average value of cells within the bounds of the polygon<br>
 🔹 Raster file of a Landsat8 scene for Band 5 (NIR) were demoed<br>
 🔹 Explored raster file data and metadata - understanding what transformations might be required during the task<br>
