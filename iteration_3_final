@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+#This codebase includes Pseudocode to protect IP
+
 
 import geopandas as gpd  # For vector data handling
 import rasterio  # For raster data handling
