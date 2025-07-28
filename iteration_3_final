@@ -1,6 +1,4 @@
 #!/usr/bin/env python3
-#This codebase includes Pseudocode to protect IP
-
 
 import geopandas as gpd  # For vector data handling
 import rasterio  # For raster data handling
@@ -9,18 +7,18 @@ import numpy as np  # For numerical operations
 import os  # For file path operations
 from shapely.geometry import mapping  # For geometry operations
 
-# [PSEUDOCODE] FUNCTION validate_file_path(prompt, allowed_file_types):
-    # [PSEUDOCODE] LOOP until a valid file path is returned:
-        # [PSEUDOCODE] DISPLAY prompt and RECEIVE user input as 'file_path'
+def validate_file_path(prompt: str, file_types: list) -> str:
+    while True:
+        file_path = input(prompt)
         
-        # [PSEUDOCODE] Check if file exists
-        # [PSEUDOCODE] conditional with os methods and file_path function:
+        # Check if file exists
+        if not os.path.exists(file_path):
             print(f"Error: File '{file_path}' does not exist.")
             continue
             
         # Check file extension
         file_ext = os.path.splitext(file_path)[1].lower()
-        # [PSEUDOCODE] conditional to check file type in file path
+        if file_ext not in file_types:
             print(f"Error: File must be one of these types: {', '.join(file_types)}")
             continue
             
@@ -103,77 +101,77 @@ def get_vector_metadata(vector_path: str) -> dict:
 def process_vector_data(vector_path: str) -> float:
     """
     Process vector data and calculate statistics
+    
+    Args:
+        vector_path (str): Path to the vector file
+        
+    Returns:
+        float: Average of coordinate values
     """
     try:
         # Read the vector file
-        gdf = gpd.read_file(vector_path)  
-        # [PSEUDOCODE] READ the vector file from the given path using GeoPandas
-
-        coordinates = []  # [PSEUDOCODE] INITIALIZE an empty list to hold coordinates
-
+        gdf = gpd.read_file(vector_path)
+        
+        # Extract coordinates from the geometry
+        coordinates = []
         for geom in gdf.geometry:
             if geom.geom_type == 'Polygon':
+                # Extract coordinates from polygon exterior
                 coords = list(geom.exterior.coords)
                 coordinates.extend([x for coord in coords for x in coord])
-                # [PSEUDOCODE] FOR EACH geometry in the vector:
-                #     IF it is a Polygon:
-                #         EXTRACT the exterior coordinates
-                #         FLATTEN and store x and y values into the coordinates list
-
+                
+        # Calculate average of all coordinate values
         if coordinates:
             average = sum(coordinates) / len(coordinates)
             print(f"\nAverage of all coordinate values: {average}")
             return average
-            # [PSEUDOCODE] IF coordinates exist:
-            #     CALCULATE the average
-            #     DISPLAY and RETURN the result
         else:
             print("No coordinates found in the vector file")
             return 0.0
-            # [PSEUDOCODE] ELSE:
-            #     INFORM user and RETURN 0.0
-
+            
     except Exception as e:
         print(f"Error processing vector data: {str(e)}")
         return 0.0
-        # [PSEUDOCODE] CATCH and DISPLAY errors, then RETURN 0.0
 
 def calculate_zonal_statistics(raster_path: str, vector_path: str, band_index: int = 1) -> float:
     """
     Calculate zonal statistics for raster values within vector polygons
+    
+    Args:
+        raster_path (str): Path to the raster file
+        vector_path (str): Path to the vector file
+        band_index (int): Index of the raster band to process (1-based)
+        
+    Returns:
+        float: Average value within the polygon
     """
     try:
-        gdf = gpd.read_file(vector_path)  
-        # [PSEUDOCODE] READ the vector file using GeoPandas
-
+        # Read the vector file
+        gdf = gpd.read_file(vector_path)
+        
+        # Ensure the vector CRS matches the raster
         with rasterio.open(raster_path) as src:
-            # [PSEUDOCODE] OPEN the raster file using rasterio context manager
-
             if gdf.crs != src.crs:
                 gdf = gdf.to_crs(src.crs)
-                # [PSEUDOCODE] IF CRS does not match:
-                #     TRANSFORM vector to raster CRS
-
+            
+            # Get geometries in the format required by rasterio
             geometries = [mapping(geom) for geom in gdf.geometry]
-            # [PSEUDOCODE] EXTRACT vector geometries into rasterio-friendly format
-
+            
+            # Mask the raster with vector geometries
             out_image, out_transform = mask(src, geometries, crop=True, band_index=band_index)
-            # [PSEUDOCODE] MASK raster using the polygon geometries
-
+            
+            # Calculate statistics
             masked_data = np.ma.masked_array(out_image, mask=out_image == src.nodata)
             average = float(np.ma.mean(masked_data))
-            # [PSEUDOCODE] CREATE masked array (excluding nodata)
-            #             CALCULATE average of valid raster values
-
+            
             print(f"\nZonal Statistics:")
             print(f"Average value within polygon(s): {average}")
+            
             return average
-            # [PSEUDOCODE] DISPLAY and RETURN the average
-
+            
     except Exception as e:
         print(f"Error calculating zonal statistics: {str(e)}")
         return 0.0
-        # [PSEUDOCODE] CATCH and DISPLAY errors, then RETURN 0.0
 
 def main():
     # Get file paths
