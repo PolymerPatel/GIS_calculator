@@ -13,11 +13,10 @@
 
 ## Next Steps: 
 
-This tool will use geospatial analysis to identify locations for sustainable material recovery, optimal routes for collection, and the best sites for new recycling infrastructure determining:
+This tool will use geospatial analysis to identify locations for sustainable material feedstock and optimal routes for collection determining:
 
-🔹 Where are critical minerals in high abundance?<br>
-🔹 What are the most efficient way to reclaim them at scale?<br>
-🔹 Include a Dockerfile and some sample inputs files for demos
+🔹 Where are sustainable materials in high abundance?<br>
+🔹 What are the most efficient way to capture these?<br>
 
 💡 Ideal outcome: Build a mapping tool that visualizes locations to support circular economy planning with infrastructure siting and geospatial insights.
 
