@@ -7,9 +7,6 @@
 🔹 Raster file of a Landsat8 scene for Band 5 (NIR) were demoed<br>
 🔹 Explored raster file data and metadata - understanding what transformations might be required during the task<br>
 
-<img width="331" alt="Climate Hackathon" src="https://github.com/user-attachments/assets/7d0d5c2e-d58d-40d6-8b7e-4a64176d108e" />
-
-
 
 <br>
 
