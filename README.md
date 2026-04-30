@@ -17,15 +17,15 @@ This tool will use geospatial analysis to identify locations for sustainable mat
 🔹 What are the most efficient way to capture these?<br>
 
 💡 Ideal outcome: Build a mapping tool that visualizes locations to support circular economy planning with infrastructure siting and geospatial insights.
-
+<br>
 🌐 Public Data Sources
 Below are curated public data sources to help map areas, quantify biomass, analyze recovery potential, and build compelling, real-world prototypes.
-
+<br>
 🔋 Critical Minerals & Material Flows
 OECD Global Material Flows – Circularity trends and secondary materials data<br>
  🔗 https://www.oecd.org/environment/material-flows-and-resource-productivity.htm<br>
  🔗 https://www.oecd.org/en/topics/biodiversity-water-and-ecosystems.html
-
+<br><br>
 🗺️ Geospatial & Urban Infrastructure<br>
 OpenStreetMap (OSM) – Open geographic data for mapping infrastructure, logistics, and facility locations<br>
- 🔗 https://www.openstreetmap.org/ 
+ 🔗 https://www.openstreetmap.org/
