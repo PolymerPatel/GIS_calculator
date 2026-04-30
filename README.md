@@ -21,8 +21,7 @@ This tool will use geospatial analysis to identify locations for sustainable mat
 🌐 Public Data Sources
 Below are curated public data sources to help map areas, quantify biomass, analyze recovery potential, and build compelling, real-world prototypes.
 <br><br>
-🔋 Critical Minerals databases
-OECD Global Material Flows – Circularity trends and secondary materials data<br>
+🔋 Critical Minerals databases - OECD Global Material Flows <br>
  🔗 https://www.oecd.org/environment/material-flows-and-resource-productivity.htm<br>
  🔗 https://www.oecd.org/en/topics/biodiversity-water-and-ecosystems.html
 <br><br>
