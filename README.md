@@ -11,16 +11,16 @@
 
 ## Applications
 
-This tool will use geospatial analysis to identify locations for sustainable material feedstock and optimal routes for collection determining:
+Uses geospatial analysis to identify and determine:
 
 🔹 Where are sustainable materials in high abundance?<br>
 🔹 What are the most efficient way to capture these?<br>
 
-💡 Ideal outcome: Build a mapping tool that visualizes locations to support circular economy planning with infrastructure siting and geospatial insights.
+💡 Goal: Build a mapping tool that visualizes locations to support circular economy planning with infrastructure siting and geospatial insights.
 <br><br>
-🌐 Public Data Sources - map areas, quantify biomass, analyze recovery potential, and build prototypes.
+🌐 Public Data Sources: map areas, quantify biomass, analyze recovery potential, and build prototypes.
 <br><br>
-🔋 Critical Minerals databases - OECD Global Material Flows <br>
+🔋 Critical Minerals databases: OECD Global Material Flows <br>
  🔗 https://www.oecd.org/environment/material-flows-and-resource-productivity.htm<br>
  🔗 https://www.oecd.org/en/topics/biodiversity-water-and-ecosystems.html
 <br><br>
