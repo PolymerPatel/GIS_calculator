@@ -22,8 +22,8 @@
 🌐 Public Data Sources: map areas, quantify biomass, analyze recovery potential, and build prototypes.
 <br><br>
 🔋 Critical Minerals databases: OECD Global Material Flows <br>
- 🔗 https://www.oecd.org/environment/material-flows-and-resource-productivity.htm<br>
- 🔗 https://www.oecd.org/en/topics/biodiversity-water-and-ecosystems.html
+ - 🔗 https://www.oecd.org/environment/material-flows-and-resource-productivity.htm<br>
+ - 🔗 https://www.oecd.org/en/topics/biodiversity-water-and-ecosystems.html
 <br><br>
 🗺️ Geospatial Tools: OpenStreetMap (OSM) – Open geographic data for mapping infrastructure, logistics, and facility locations<br>
- 🔗 https://www.openstreetmap.org/
+ - 🔗 https://www.openstreetmap.org/
