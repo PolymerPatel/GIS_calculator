@@ -11,8 +11,10 @@
 
 ## Applications
 
-💡 Goals: Build a mapping tool to visualize infrastructure siting and provide geospatial insights.
-Use geospatial analysis to identify and determine:
+💡 Goals: 
+
+- Build a mapping tool to visualize infrastructure siting and provide geospatial insights. 
+- Use geospatial analysis to identify and determine:
 
 🔹 Where are sustainable materials in high abundance?<br>
 🔹 What are the most efficient way to capture these?<br>
