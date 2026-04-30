@@ -1,6 +1,6 @@
 # 🌊 Geographic Information Systems Calculator
 
-## Current Progress:
+## Progress
 
 🔹 Developed Python script that takes as input the paths to an arbitrary raster (GeoTIFF) and vector polygon (Shapefile, GeoJSON or KML)<br>
 🔹 Returns the average value of cells within the bounds of the polygon<br>
@@ -9,7 +9,7 @@
 
 <br>
 
-## Next Steps: 
+## Applications
 
 This tool will use geospatial analysis to identify locations for sustainable material feedstock and optimal routes for collection determining:
 
