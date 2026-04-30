@@ -19,7 +19,7 @@
 🔹 Where are sustainable materials in high abundance?<br>
 🔹 What are the most efficient way to capture these?<br>
 <br><br>
-🌐 Public Data Sources: map areas, quantify biomass, analyze recovery potential, and build prototypes.
+🌐 Public Data Sources: map areas, analyze locations, and build prototypes.
 <br><br>
 🔋 Critical Minerals databases: OECD Global Material Flows <br>
  - 🔗 https://www.oecd.org/environment/material-flows-and-resource-productivity.htm<br>
