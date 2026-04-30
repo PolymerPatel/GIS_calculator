@@ -16,7 +16,7 @@ Uses geospatial analysis to identify and determine:
 🔹 Where are sustainable materials in high abundance?<br>
 🔹 What are the most efficient way to capture these?<br>
 
-💡 Goal: Build a mapping tool that visualizes locations to support circular economy planning with infrastructure siting and geospatial insights.
+💡 Goal: Build a mapping tool to visualize infrastructure siting and provide geospatial insights.
 <br><br>
 🌐 Public Data Sources: map areas, quantify biomass, analyze recovery potential, and build prototypes.
 <br><br>
