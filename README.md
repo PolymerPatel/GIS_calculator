@@ -24,6 +24,5 @@ Uses geospatial analysis to identify and determine:
  🔗 https://www.oecd.org/environment/material-flows-and-resource-productivity.htm<br>
  🔗 https://www.oecd.org/en/topics/biodiversity-water-and-ecosystems.html
 <br><br>
-🗺️ Geospatial Tools<br>
-OpenStreetMap (OSM) – Open geographic data for mapping infrastructure, logistics, and facility locations<br>
+🗺️ Geospatial Tools: OpenStreetMap (OSM) – Open geographic data for mapping infrastructure, logistics, and facility locations<br>
  🔗 https://www.openstreetmap.org/
